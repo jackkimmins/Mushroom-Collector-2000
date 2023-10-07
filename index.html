@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Collector 2000</title>
+    <meta name="description" content="Collect all the mushrooms!">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/main.min.css">
+</head>
+
+<body>
+    <main>
+        <h1>Mushroom Collector 2000</h1>
+        <p>Collect all the mushrooms!</p>
+        <p>Score: <span id="score">0</span></p>
+
+        <dialog id="start-modal">
+            <h2>Welcome to Mushroom Collector 2000!</h2>
+            <button id="start-game">Start Game</button>
+        </dialog>        
+
+        <dialog id="congrats-modal">
+            <h2>Mushroom Collector 2000</h2>
+            <p>CONGRATULATIONS!</p>
+            <button id="restart-game">Restart Game</button>
+        </dialog>        
+
+        <section id="game">
+            <div id="character"></div>
+        </section>     
+    </main>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
